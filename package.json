@@ -1,0 +1,32 @@
+{
+  "name": "geo-spreadsheet-uploader",
+  "version": "1.0.0",
+  "description": "CLI importer for uploading spreadsheet rows to Geo on testnet.",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "import": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temitopeohassan/geo-200-top-pathways.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temitopeohassan/geo-200-top-pathways/issues"
+  },
+  "homepage": "https://github.com/temitopeohassan/geo-200-top-pathways#readme",
+  "dependencies": {
+    "@geoprotocol/geo-sdk": "^0.13.1",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.3.1",
+    "viem": "^2.47.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
